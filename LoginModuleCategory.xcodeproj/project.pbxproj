@@ -17,7 +17,7 @@
 		A85A2685279843EE004ABDF9 /* LoginModuleCategoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A2684279843EE004ABDF9 /* LoginModuleCategoryTests.swift */; };
 		A85A268F279843EE004ABDF9 /* LoginModuleCategoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A268E279843EE004ABDF9 /* LoginModuleCategoryUITests.swift */; };
 		A85A2691279843EE004ABDF9 /* LoginModuleCategoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85A2690279843EE004ABDF9 /* LoginModuleCategoryUITestsLaunchTests.swift */; };
-		A85A26A027984510004ABDF9 /* CTMediator+LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A269F27984510004ABDF9 /* CTMediator+LoginModule.m */; };
+		A85A26A827986A7A004ABDF9 /* CTMediator+LoginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A26A727986A7A004ABDF9 /* CTMediator+LoginModule.m */; };
 		B8157AE724890414B14257A1 /* libPods-LoginModuleCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B31864509A9788A2B10C2F4 /* libPods-LoginModuleCategory.a */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +56,8 @@
 		A85A268E279843EE004ABDF9 /* LoginModuleCategoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleCategoryUITests.swift; sourceTree = "<group>"; };
 		A85A2690279843EE004ABDF9 /* LoginModuleCategoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleCategoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A85A269D27984510004ABDF9 /* LoginModuleCategory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginModuleCategory-Bridging-Header.h"; sourceTree = "<group>"; };
-		A85A269E27984510004ABDF9 /* CTMediator+LoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+LoginModule.h"; sourceTree = "<group>"; };
-		A85A269F27984510004ABDF9 /* CTMediator+LoginModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+LoginModule.m"; sourceTree = "<group>"; };
+		A85A26A627986A74004ABDF9 /* CTMediator+LoginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+LoginModule.h"; sourceTree = "<group>"; };
+		A85A26A727986A7A004ABDF9 /* CTMediator+LoginModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+LoginModule.m"; sourceTree = "<group>"; };
 		F719BAE2929CCDF2C998A83C /* Pods-LoginModuleCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginModuleCategory.release.xcconfig"; path = "Target Support Files/Pods-LoginModuleCategory/Pods-LoginModuleCategory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,9 +137,9 @@
 				A85A2676279843EE004ABDF9 /* Assets.xcassets */,
 				A85A2678279843EE004ABDF9 /* LaunchScreen.storyboard */,
 				A85A267B279843EE004ABDF9 /* Info.plist */,
-				A85A269E27984510004ABDF9 /* CTMediator+LoginModule.h */,
-				A85A269F27984510004ABDF9 /* CTMediator+LoginModule.m */,
 				A85A269D27984510004ABDF9 /* LoginModuleCategory-Bridging-Header.h */,
+				A85A26A627986A74004ABDF9 /* CTMediator+LoginModule.h */,
+				A85A26A727986A7A004ABDF9 /* CTMediator+LoginModule.m */,
 			);
 			path = LoginModuleCategory;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 				A85A2672279843ED004ABDF9 /* Document.swift in Sources */,
 				A85A2670279843ED004ABDF9 /* DocumentViewController.swift in Sources */,
 				A85A266E279843ED004ABDF9 /* DocumentBrowserViewController.swift in Sources */,
-				A85A26A027984510004ABDF9 /* CTMediator+LoginModule.m in Sources */,
+				A85A26A827986A7A004ABDF9 /* CTMediator+LoginModule.m in Sources */,
 				A85A266C279843ED004ABDF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
